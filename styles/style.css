@@ -8,4 +8,6 @@
 @import url('/styles/telas/tela_coordenador/salas_disponiveis.css');
 @import url('/styles/telas/tela_professor/solicitar_sala.css');
 @import url('/styles/telas/tela_professor/historico.css');
+@import url('/styles/ajuda/ajuda.css');
+@import url('/styles/ajuda/sucesso2.css');
 @import url('perfil.css');
