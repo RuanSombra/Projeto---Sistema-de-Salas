@@ -1,0 +1,138 @@
+/* NAV DO MENU LATERAL */
+
+nav.menu-lateral {
+    width: 80px;
+    height: 100%;
+    background-color: #1A1479;
+    padding: 40px 0 40px 1%;
+    box-shadow: 0px 0px 8px black;  
+    border-radius: 0 10px 10px 0;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.7s;
+    overflow: hidden;
+}
+
+.item-menu-ul {
+    margin-top: 50px;
+}
+
+/* Função JAVA SCRIP - Botão expandir */
+
+nav.menu-lateral.expandir {
+    width: 350px;
+}
+
+/* ---------------------------------- */
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.btn-expandir > i{
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul li.item-menu {
+    transition: 0.7s;
+}
+
+/*Minha função do JAVA SCRIPT*/
+
+ul li.ativo {
+    background-color: #fff;
+    border-radius: 10px 0px 0px 10px;
+}
+
+ul li.ativo a {
+    color: #1A1479;
+}
+
+/* ------------------------ */
+
+ul li.item-menu:hover {
+    background-color: #fff;
+    border-radius: 10px 0px 0px 10px;
+}
+
+ul li.item-menu a:hover {
+    color: #1A1479;
+}
+
+ul li.item-menu a{
+    font-weight: 200;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+    flex-wrap: nowrap;
+}
+
+nav.menu-lateral.expandir .txt-link {
+    transition: 0.5s;
+    margin-left: 70px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+/* FIM NAV DO MENU LATERAL */
+
+/* MAIN */
+
+#inicio {
+
+    margin: 0 auto;
+    width: 1311px;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.txt-apresentacao img {
+    width: 350px;
+    height: 200px;
+}
+
+.txt-apresentacao {
+
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+.txt-apresentacao h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.txt-apresentacao h2 {
+    margin-bottom: 20px;
+}
+
+.txt-apresentacao h3 {
+    margin-top: 10px;
+}
+
+.txt-apresentacao span {
+    margin-top: 20px;
+}
+
+

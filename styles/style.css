@@ -1,0 +1,11 @@
+@import url('global.css');
+@import url('main.css');
+@import url('/styles/cadastro/cadastro_coordenador.css');
+@import url('/styles/cadastro/cadastro_professor.css');
+@import url('/styles/telas/tela_coordenador/home.css');
+@import url('/styles/telas/tela_coordenador/solicitacoes_salas.css');
+@import url('/styles/telas/tela_professor.css');
+@import url('/styles/telas/tela_coordenador/salas_disponiveis.css');
+@import url('/styles/telas/tela_professor/solicitar_sala.css');
+@import url('/styles/telas/tela_professor/historico.css');
+@import url('perfil.css');

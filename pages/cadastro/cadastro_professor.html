@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="shortcut icon" href="/images/senai-logo-0 1.png" type="image/x-icon">
+    <title>Cadastro - Professor</title>
+</head>
+<body>
+    <!--Inicio do header-->
+
+    <header id ="cabecalho">
+        <div class="logo_senai">
+            <img src="/images/senai-logo-0 1.png" alt="Logo do Senai">
+        </div>
+        <nav class ="navegacao">
+            <ul class ="navegacao_links">
+                <li class="navegacao_links_a"><a href="/pages/index.html">Home</a></li>
+                <li class="navegacao_links_a"><a href="/pages/perfis/perfil_cadastro.html">Cadastro</a></li>
+                <li class="navegacao_links_a"><a href="/pages/perfis/perfil_login.html">Login</a></li>
+            </ul>
+            <button class="button_ajuda">Ajuda</button>
+        </nav>
+    </header>
+
+    <!--Inicio do main-->
+
+    <form action="/pages/cadastro/cadastro_professor.html" method="get">
+        <div id="formulario">
+            <h1 class="titulo2">Cadastro - Professor</h1>
+            <span class="frase2">Realize agora seu cadastro, 
+                você já tem um login? <a href="/pages/login/login_professor.html">clique aqui!!</a></span>
+
+            <div class="form1">
+                <label for="nome">Nome: </label>
+                <input class="input" type="text" name="nome">
+            </div>
+            
+            <div class="form2">
+                <label for="email">E-mail: </label>
+                <input class="input" type="email" name="email" id="email">
+            </div>
+    
+            <div class="form3">
+                <label for="senha">Senha: </label>
+                <input class="input" type="password" name="senha" id="senha">
+            </div>
+
+            <div class="form4">
+                <label for="area">Área de Atuação: </label>
+                <select class="campo_area" name="area" id="area">
+                    <option class="campo_area_option" value="0" selected disabled>Selecione...</option>
+                    <option class="campo_area_option" value="adm">Administração e Gestão</option>
+                    <option class="campo_area_option" value="construcao_civil">Construção Civil</option>
+                    <option class="campo_area_option" value="design_moda">Design de Moda</option>
+                    <option class="campo_area_option" value="desing_grafico">Design Gráfico</option>
+                    <option class="campo_area_option" value="automacao">Automação</option>
+                    <option class="campo_area_option" value="fullstack">Full-Stack - Backend e Frontend</option>
+                </select>
+            </div>
+    
+            <a href="/index.html"><input class="input_enviar" type="submit" value="Enviar"></a>
+        </div>
+    </form>
+</body>
+</html>

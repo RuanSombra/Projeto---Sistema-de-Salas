@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="shortcut icon" href="/images/senai-logo-0 1.png" type="image/x-icon">
+    <title>Login - Professor</title>
+</head>
+<body>
+    <!--Inicio do header-->
+
+    <header id ="cabecalho">
+        <div class="logo_senai">
+            <img src="/images/senai-logo-0 1.png" alt="Logo do Senai">
+        </div>
+        <nav class ="navegacao">
+            <ul class ="navegacao_links">
+                <li class="navegacao_links_a"><a href="/pages/index.html">Home</a></li>
+                <li class="navegacao_links_a"><a href="/pages/perfis/perfil_cadastro.html">Cadastro</a></li>
+                <li class="navegacao_links_a"><a href="/pages/perfis/perfil_login.html">Login</a></li>
+            </ul>
+            <button class="button_ajuda">Ajuda</button>
+        </nav>
+    </header>
+
+    <!--Inicio do main-->
+
+    <form action="/pages/telas/tela_professor/home.html" method="get">
+        <div id="formulario">
+            <h1 class="titulo2">Login - Professor</h1>
+            <span class="frase2">Realize agora seu cadastro, 
+                você não tem um login? <a href="/pages/cadastro/cadastro_professor.html">clique aqui!!</a></span>
+
+            <div class="form1">
+                <label for="email">E-mail: </label>
+                <input class="input" type="email" name="email" id="email">
+            </div>
+    
+            <div class="form2">
+                <label for="senha">Senha: </label>
+                <input class="input" type="password" name="senha" id="senha">
+            </div>
+    
+            <a href="login.html"><input class="input_enviar" type="submit" value="Enviar"></a>
+        </div>
+    </form>
+</body>
+</html>
